@@ -1,10 +1,8 @@
 # Code Reviews
 
-This repository is designed to teach students the code review process.  There are several pull requests, PRs, with sample code submissions.
-
 ## Overview
 
-Students will review the PRs and add comments to suggest changes and ask questions.  This is designed to give students practice at looking at a pull request, reading code and exercising code review etiquette.  
+This repository is designed to teach students the code review process.  There are several pull requests, PRs, with sample code submissions.  Students will practice reviewing these submissions and then discuss their comments for clarity, etiquette and correctness.
 
 ## How This Will Work
 
