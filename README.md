@@ -28,7 +28,6 @@ After students are finished reviewing the PRs each table will examine the code c
 As students review comments they are asked:
 
 * Is this comment correct?
-* Does this comment criticise the code and **not** the developer?
 * Does the comment clearly communicate the point?
 * Is the comment kind and collaborative?
 
