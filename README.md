@@ -8,11 +8,35 @@ Students will review the PRs and add comments to suggest changes and ask questio
 
 ## How This Will Work
 
+### Reviewing PRs
+
 Each student will open 3 PRs in separate tabs in their browser.  The PRs are assigned by table.  They will review the code adding inline comments, questions and suggested changes.  They will **not** submit the review.  Instead, student will wait until all students are finished reviewing the PR.  
 
 Then students will submit their reviews and decide if they accept the PR, or want to request changes.
 
-After students are finished reviewing the PRs each table will discuss their comments.  At the end the class will discuss as a whole any comments or open questions each table had.
+Students are asked to look for:
+
+* Do I understand what this code is doing? (Readability)
+* Are there things wrong with this code? (Correctness)
+* Are there changes (Improvements) I can suggest to make the code more:
+  * Readable
+  * Efficient
+  * Flexible
+
+### Reviewing Code Reviews
+
+After students are finished reviewing the PRs each table will examine the code comments and discuss.
+
+As students review comments they are asked:
+
+* Is this comment correct?
+* Does this comment criticise the code and **not** the developer?
+* Does the comment clearly communicate the point?
+* Is the comment kind and collaborative?
+
+### Wrap Up
+
+At the end of the lesson the class will discuss group observations and unanswered questions.
 
 ## Connected Lesson
 
