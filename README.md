@@ -33,7 +33,7 @@ Each student should write a function, and accompanying tests, add and commit and
 1.  In the repository in Github select the branch to create a pull request from.<br />
     ![Select a branch](images/select-branch.png)
 1.  Click on the pull request button.<br />
-    ![Create a PR button](images/create-pr-1.png)<br />
+    ![Create a PR button](images/create-pr-1.png)<br /> or ![Alternative open PR button](images/alt-open-pr.png) <br />
     ![Create a PR button 2](images/create-pr-2.png)
 1.  Fill out a title and description and create the pull request.<br />
     ![Create a PR](images/create-pr-3.png)
