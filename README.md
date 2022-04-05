@@ -30,14 +30,14 @@ Each student should write a function, and accompanying tests, add and commit and
 
 ### Open a Pull Request
 
-1.  In the repository in Github select the branch to create a pull request from.
+1.  In the repository in Github select the branch to create a pull request from.<br />
     ![Select a branch](images/select-branch.png)
-1.  Click on the pull request button.
-    ![Create a PR button](images/create-pr-1.png)
+1.  Click on the pull request button.<br />
+    ![Create a PR button](images/create-pr-1.png)<br />
     ![Create a PR button 2](images/create-pr-2.png)
-1.  Fill out a title and description and create the pull request.
+1.  Fill out a title and description and create the pull request.<br />
     ![Create a PR](images/create-pr-3.png)
-1.  Add teammates as reviewers.
+1.  Add teammates as reviewers.<br />
     ![Add Reviewers](images/add-reviewer.png)
 
 ### Review a Pull Request
