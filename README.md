@@ -49,7 +49,7 @@ In the Github repository click on **Pull requests** and click on the pull reques
 
 Then we can click on the **+** sign to add comments to lines of code.
 
-![Plus button](images/plus-button.png)
+![Plus button](images/pr-plus-button.png)
 ![Add a comment](images/make-pr-comment.png)
 
 ## Conduct Code Reviews
