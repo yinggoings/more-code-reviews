@@ -46,7 +46,7 @@ Next each student will write their selected function, and accompanying tests, ad
 
 Then each student will create a pull request with their proposed changes (written function).
 
-To create a pull request:
+#### To create a pull request:
 
 1.  In the repository in Github select the branch to create a pull request from.<br />
     ![Select a branch](images/select-branch.png)
@@ -70,7 +70,7 @@ Specifically look for:
 
 Make suggestions for improvement using Github's PR review interface.
 
-To review a pull request:
+#### To review a pull request:
 
 In the Github repository click on **Pull requests** and click on the pull request you want to review.  Then select  **Files changed**.
 
