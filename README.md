@@ -4,7 +4,7 @@
 
 This repository is designed to teach students the code review process using [Github pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).  
 
-Students will each create a separate pull request from one of three functions and accompanying tests listed in [functions.md](./functions.md).
+Students will each create a separate pull request by adding one of three functions and accompanying tests listed in [functions.md](./functions.md).
 
 ## Instructions
 
