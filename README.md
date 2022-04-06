@@ -40,10 +40,18 @@ In the Github repository click on **Pull requests** and click on the pull reques
 
 ![Select PR To Review](images/select-pr-to-review.png)
 
+_Fig. Selecting a PR to Review_
+
 ![Review PR](images/review-pr.png)
+
+_Fig. Selecting Files Changed_
 
 Then we can click on the **+** sign to add comments to lines of code.
 
 ![Plus button](images/pr-plus-button.png)
 
+_Fig. Using the + sign to comment on a line_
+
 ![Add a comment](images/make-pr-comment.png)
+
+_Fig. Writing a comment_
