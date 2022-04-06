@@ -4,63 +4,27 @@
 
 This repository is designed to teach students the code review process using [Github pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).  
 
+Students will each create a separate pull request from one of three functions and accompanying tests listed in [functions.md](./functions.md).
+
 ## Instructions
 
-### Overview
-
-In teams of 2-3 students will:
+In teams of 2-3:
 
 1. Select one student who will fork and add teammates as collaborators.
-1. Clone the repository and each student selects **one** (1) function.
-1. Create a branch, write their function, commit their changes and push the branch up to the remote repository.
+1. Clone the repository and each student selects **one** (1) function from the [list of functions](./functions.md) to add.
+1. Each student individually creates a branch, writes their function, commits their changes and pushes the branch up to the remote repository.
+    - For example:  If **Jaeda** is working on the [`merge_sorted_lists`](./functions.md) function
+        1. They could create a branch named `jaeda/merge_sorted_lists`
+        1. Then write their code, and tests
+        1. Verify the code works by creating a virtual environment, installing the dependencies, and running the tests with `pytest`
+        1. Then use `git add` and `git commit` to commit their changes
+        1. Then use `git push origin jaeda/merge_sorted_lists` to push the branch up to github
 1. Open a pull request and add their teammates as reviewers.
 1. As a team review each pull request using Github, writing comments and suggestions.
 
-### Set Up Repository
+## Reviewing the Pull Requests
 
-Using the routine from previous projects one team member should fork and clone the repository and add teammates as collaborators.
-
-Then the entire team should individually clone the forked repository.  
-
-### Selecting A Function
-
-Each team member can then select a [function](./functions.md) from the linked markdown document.
-
-### Creating a Branch
-
-Next each team member will create a branch in git.
-
-To create a branch in git use the following command:
-
-```
-$ git switch -c <branch-name>
-```
-
-Where `<branch-name>` is the name of the branch you want to create.
-
-### Writing a Function
-
-Next each student will write their selected function, and accompanying tests, add, commit and push their changes to github.
-
-### Open a Pull Request
-
-Then each student will create a pull request with their proposed changes (written function).
-
-#### To create a pull request:
-
-1.  In the repository in Github select the branch to create a pull request from.<br />
-    ![Select a branch](images/select-branch.png)
-1.  Click on the pull request button.<br />
-    ![Create a PR button](images/create-pr-1.png)<br /> or ![Alternative open PR button](images/alt-open-pr.png) <br />
-    ![Create a PR button 2](images/create-pr-2.png)
-1.  Fill out a title and description and create the pull request.<br />
-    ![Create a PR](images/create-pr-3.png)
-1.  Add teammates as reviewers.<br />
-    ![Add Reviewers](images/add-reviewer.png)
-
-### Review a Pull Request
-
-Then, as a team, students will review each pull request making comments and suggestions.  
+Then, as a team, students will review each pull request making comments and suggestions.  Discuss the code and talk about things you observe.
 
 Specifically look for:
 
@@ -68,16 +32,18 @@ Specifically look for:
 1.  Efficiency issues
 1.  Testing Issues
 
-Make suggestions for improvement using Github's PR review interface.
+Make suggestions for improvement using Github's PR review interface.  In most code reviews you may also look for items to praise and learn from.
 
-#### To review a pull request:
+### To Review a Pull Request
 
 In the Github repository click on **Pull requests** and click on the pull request you want to review.  Then select  **Files changed**.
 
 ![Select PR To Review](images/select-pr-to-review.png)
+
 ![Review PR](images/review-pr.png)
 
 Then we can click on the **+** sign to add comments to lines of code.
 
 ![Plus button](images/pr-plus-button.png)
+
 ![Add a comment](images/make-pr-comment.png)
