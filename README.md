@@ -4,6 +4,8 @@
 
 This repository is designed to teach students the code review process using [Github pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).  
 
+Students will each create a separate pull request from one of three functions and accompanying tests listed in [functions.md](./functions.md).
+
 ## Instructions
 
 In teams of 2-3:
@@ -11,7 +13,7 @@ In teams of 2-3:
 1. Select one student who will fork and add teammates as collaborators.
 1. Clone the repository and each student selects **one** (1) function from the [list of functions](./functions.md) to add.
 1. Each student individually creates a branch, writes their function, commits their changes and pushes the branch up to the remote repository.
-    - For example:  If Jaeda is working on the [`merge_sorted_lists`](./functions.md) function
+    - For example:  If **Jaeda** is working on the [`merge_sorted_lists`](./functions.md) function
         1. They could create a branch named `jaeda/merge_sorted_lists`
         1. Then write their code, and tests
         1. Verify the code works by creating a virtual environment, installing the dependencies, and running the tests with `pytest`
