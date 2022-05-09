@@ -38,5 +38,5 @@ At the end of the lesson the class will discuss group observations and unanswere
 ## Connected Lesson
 
 <!-- TODO Add Link -->
-
-- [Ada Textbook Curriculum CS Fundamentals Code Reviews]()
+- [Ada Software Development Tools - Code Reviews](https://github.com/Ada-Developers-Academy/core-software-tools/blob/main/github-code-reviews/code-reviews.md)
+- [Ada Software Development Tools - Pull Requests](https://github.com/Ada-Developers-Academy/core-software-tools/blob/main/github-code-reviews/github-code-reviews.md)
