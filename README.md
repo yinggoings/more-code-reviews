@@ -1,42 +1,55 @@
 # Code Reviews
 
-## Overview
+## Goals
 
-This repository is designed to teach students the code review process.  There are several pull requests, PRs, with sample code submissions.  Students will practice reviewing these submissions and then discuss their comments for clarity, etiquette and correctness.
+The goal of this activity it to practice the code review process using [Github pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-## How This Will Work
+## Instructions
 
-### Reviewing PRs
+In teams of 2-3:
 
-Each student will open 3 PRs in separate tabs in their browser.  The PRs are assigned by table.  They will review the code adding inline comments, questions and suggested changes.  They will **not** submit the review.  Instead, student will wait until all students are finished reviewing the PR.  
+1. Select one student who will fork and add teammates as collaborators.
+1. Individually, clone the repository and select **one** (1) function from the [list of functions](./functions.md) to add.
+1. Individually, create a branch, write your function and tests (the code is provided), commit your changes, and push the branch up to the remote repository.
+   - For example: If **Jaeda** is working on the [`merge_sorted_lists`](./functions.md) function
+     1. They could create a branch named `jaeda/merge_sorted_lists`
+     1. Then write their code and tests
+     1. Verify the code works by creating a virtual environment, installing the dependencies, and running the tests with `pytest`
+     1. Then use `git add` and `git commit` to commit their changes
+     1. Then use `git push origin jaeda/merge_sorted_lists` to push the branch up to Github
+1. Open a pull request and add your teammates as reviewers.
+1. As a team, review each pull request using Github, writing comments and suggestions.
+   - Specifically, look for:
+     - Style and readability issues
+     - Efficiency issues
+     - Testing Issues
+   - In addition, look for items to praise and learn from
 
-Then students will submit their reviews and decide if they accept the PR, or want to request changes.
+### To Review a Pull Request
 
-Students are asked to look for:
+In the Github repository, click on **Pull requests** and click on the pull request you want to review. Then select **Files changed**.
 
-* Do I understand what this code is doing? (Readability)
-* Are there things wrong with this code? (Correctness)
-* Are there changes (Improvements) I can suggest to make the code more:
-  * Readable
-  * Efficient
-  * Flexible
+![Select PR To Review](images/select-pr-to-review.png)
 
-### Reviewing Code Reviews
+_Fig. Selecting a PR to Review_</br>
 
-After students are finished reviewing the PRs each table will examine the code comments and discuss.
+![Review PR](images/review-pr.png)
 
-As students review comments they are asked:
+_Fig. Selecting Files Changed_
 
-* Is this comment correct?
-* Does the comment clearly communicate the point?
-* Is the comment kind and collaborative?
+</br>
 
-### Wrap Up
+Then we can click on the **+** sign to add comments to lines of code.
 
-At the end of the lesson the class will discuss group observations and unanswered questions.
+![Plus button](images/pr-plus-button.png)
 
-## Connected Lesson
+_Fig. Using the + sign to comment on a line_
 
-<!-- TODO Add Link -->
-- [Ada Software Development Tools - Code Reviews](https://github.com/Ada-Developers-Academy/core-software-tools/blob/main/github-code-reviews/code-reviews.md)
-- [Ada Software Development Tools - Pull Requests](https://github.com/Ada-Developers-Academy/core-software-tools/blob/main/github-code-reviews/github-code-reviews.md)
+</br>
+
+![Add a comment](images/make-pr-comment.png)
+
+_Fig. Writing a comment_
+
+Finally, we will wrap up our review leaving a more general comment and **Comment**, **Approve** or **Request Changes** to submit.
+
