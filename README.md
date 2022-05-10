@@ -52,3 +52,4 @@ _Fig. Using the + sign to comment on a line_
 _Fig. Writing a comment_
 
 Finally, we will wrap up our review leaving a more general comment and **Comment**, **Approve** or **Request Changes** to submit.
+
